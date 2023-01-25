@@ -90,12 +90,12 @@ class TestDatabaseFunctions(unittest.TestCase):
         
     def test_put_todo_error_prueba_joselu(self):
         print ('---------------------')
-        print ('Start: test_put_todo_error_prueba_lg')
+        print ('Start: test_put_todo_error_prueba_joselu')
         # Testing file functions
         from src.todoList import put_item
         # Table mock
-        self.assertRaises(Exception, put_item(-1, -1))
-        print ('End: test_put_todo_error_prueba_lg')
+        self.assertRaises(Exception, put_item(-2, -2))
+        print ('End: test_put_todo_error_prueba_joselu')
 
         # Testing file functions
         # Table mock
